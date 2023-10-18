@@ -33,7 +33,7 @@ Flask hosts RESTFul API to connect to particular service
 
 set API Key in .env file
 start the server
-`node app.js` or 
+`flask run --host=0.0.0.0 --port=8000` or 
 ```sh
 
 podman image build . -t <your docker id>/kitsqlpy:0.3.0
